@@ -59,3 +59,26 @@ img {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/*links*/
+a:link {
+    color: black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #79b14d;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #79b14d;
+    text-decoration: none;
+  }
+  a:active {
+    color: #79b14d;
+    text-decoration: none;
+  }
+  a[href^="http://"],
+  a[href^="https://"] {
+    color: #79b14d;
+    text-decoration-line: underline;
+  }
