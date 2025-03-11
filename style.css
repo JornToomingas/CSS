@@ -1,13 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url('randomshape.png');
+    background-repeat: no-repeat;
 }
 
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background: #72b040;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
 .links {
@@ -19,16 +36,16 @@ body {
 }
 
 .sisu {
-
+    margin-top: 20px;
 }
 
 .sisestus {
-
+    margin-top: 20px
 }
 
 img {
-    border: 5px solid #008000;
-    padding: 20px;
+    border: 5px solid #cbe3b8;
+    padding: 0px;
     width: 200px;
     height: 150px;
     border-radius: 25px;
