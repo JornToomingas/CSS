@@ -33,6 +33,7 @@ header {
 .sisu {
     height: auto;
     padding: 80px;
+    margin: 40px;
     display: flex;
     background: white;
 }
