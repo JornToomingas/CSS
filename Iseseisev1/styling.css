@@ -1,12 +1,63 @@
 .container {
+    text-align: center;
+}
+
+header {
     height: 480px;
-    width: auto;
+    padding: 80px;
+    display: flex;
+    background-image: url(cool-background.png);
+    text-align: center;
+    color: white;
 }
 
-.banner {
-    text-align: center;
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px yellow;
 }
 
-.footer {
+.header h1 {
+    font-size: 100px;
+    color: white;
+    margin: 10px;
+}
+
+.header h3 {
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+}
+
+.sisu {
+    height: auto;
+    padding: 80px;
+    display: flex;
+    background: white;
+}
+
+.sisu img {
+    width: 600px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.sisu h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.sisu p {
+    font-size: 20px;
+    line-height: 2.0;
+    text-align: left;
+}
+
+footer {
+    font-size: 32px;
+    padding: 40px;
     text-align: center;
+    background: #f7c202;
+    color: white;
 }
