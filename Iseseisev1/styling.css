@@ -1,12 +1,8 @@
-.container {
-    text-align: center;
-}
-
 header {
     height: 480px;
     padding: 80px;
-    display: flex;
     background-image: url(cool-background.png);
+    background-size: cover;
     text-align: center;
     color: white;
 }
@@ -15,7 +11,8 @@ header {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 10px yellow;
+    border: 10px solid yellow;
+    margin-top: 40px;
 }
 
 .header h1 {
@@ -30,29 +27,23 @@ header {
     font-style: italic;
 }
 
-.sisu {
-    height: auto;
+.sisu1 {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.sisu2 {
     padding: 80px;
     margin: 40px;
-    display: flex;
+    margin-top: 80px;
+    line-height: 2;
     background: white;
+    flex-direction: row;
 }
 
-.sisu img {
-    width: 600px;
-    height: auto;
+.pilt {
     margin-right: 100px;
-}
-
-.sisu h2 {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.sisu p {
-    font-size: 20px;
-    line-height: 2.0;
-    text-align: left;
 }
 
 footer {
